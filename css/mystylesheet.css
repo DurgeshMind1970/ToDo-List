@@ -1,9 +1,7 @@
 body{
-margin: 0;
-padding: 0;
 width: 100%;
 font-family: 'Lobster', cursive;
-background: linear-gradient(yellow,white);
+
 } 
 
 .listbox{
@@ -11,17 +9,20 @@ background: linear-gradient(yellow,white);
 	margin: auto;
 	width: 300px;
 	margin-top: 100px;
-	border: solid;
+	border: groove;
 }
 .list{
- margin: auto;
-}
+	
+ background: linear-gradient(white,rgba(0,0,0,.2), white);
+ }
 
 .header{
 	padding: 10px;
 	text-align: center;
 	border-bottom: dotted;
 	background-color: rgba(0,0,0,.2);
+	background: linear-gradient( olive,white);
+	
 }
 
 
@@ -33,11 +34,15 @@ label {
 	float: left:
 	
 }
-.listitem{
-	background-color: rgba(0,0,0,.2);
-}
+
+.gray{
+	background-color: #c0c0c0;
+} 
+
 li{
-	/* padding: 10px; */
+	position: relative;
+	width:100%;
+	padding: 10px; 
 	list-style: none;
 	
 }
@@ -45,7 +50,4 @@ li{
 input[type="checkbox"]:Checked +label {
 	text-decoration: line-through;
 	color: green;
-}
-ul{
-	
 }
